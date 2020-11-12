@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+   func compute(value int) {
+  for i := 0; i < value; i++{
+
+  fmt.Println(i)
+}
+}
+
+  fun main() {
+  fmt.Println("concurrency with goroutune")
+
+
+ compute(5)
+ compute(5)
+}
